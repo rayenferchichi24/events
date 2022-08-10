@@ -41,5 +41,83 @@ class UserC
             echo 'Erreur'. $e->getMessage();
         }
     }
+    
+}
+     
+function ajouterUser($user){
+    $sql="INSERT INTO user ( username, password, role) 
+    VALUES (:username,:password,:role)";
+    $db = config::getConnexion();
+    try{
+        $query = $db->prepare($sql);
+        $query->execute([
+            
+            'username' => $user->getUsername(),
+            'password' => $user->getPassword(),
+            'role' => $user->getRole()
+        ]);			
+        //header('Location: afficheruser.php');
+    }
+    catch (Exception $e){
+        echo 'Erreur: '.$e->getMessage();
+    }			
+}
 
+
+function modifierUser($user,$id){
+    $sql="UPDATE user SET titre=:titre, description=:description WHERE id=:id";
+    $db = config::getConnexion();
+    try{
+        $req=$db->prepare($sql);
+            $req->bindValue(':titre', $user->getTitre());
+            $req->bindValue(':id', $id);
+            $req->bindValue(':description', $user->getDescription());
+            $req->execute();
+    }
+    catch (Exception $e){
+        echo 'Erreur: '.$e->getMessage();
+    }	
+}
+
+
+function afficherUser() {
+    $sql="SELECT * FROM user";
+        $db = config::getConnexion();
+        try{
+            $liste = $db->query($sql);
+            return $liste;
+        }
+        catch(Exception $e){
+            die('Erreur:'. $e->getMeesage());
+        }
+}
+
+function recupererUser($id){
+    $sql="SELECT * from user where id=$id";
+    $db = config::getConnexion();
+    try{
+        $query=$db->prepare($sql);
+        $query->execute();
+
+        $user=$query->fetch();
+        return $user;
+    }
+    catch (Exception $e){
+        die('Erreur: '.$e->getMessage());
+    }
+}
+
+function supprimerUser($id){
+    $sql="DELETE FROM user WHERE id=:id";
+    $db = config::getConnexion();
+    $req=$db->prepare($sql);
+    $req->bindValue(':id', $id);
+    try{
+        $req->execute();
+        
+    }
+    catch(Exception $e){
+        die('Erreur:'. $e->getMeesage());
+    }
+}
 }
