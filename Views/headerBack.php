@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Star Admin Premium Bootstrap Admin Dashboard Template</title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="back/src/assets/vendors/iconfonts/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="back/src/assets/vendors/iconfonts/ionicons/dist/css/ionicons.css">
-    <link rel="stylesheet" href="back/src/assets/vendors/iconfonts/flag-icon-css/css/flag-icon.min.css">
-    <link rel="stylesheet" href="back/src/assets/vendors/css/vendor.bundle.base.css">
-    <link rel="stylesheet" href="back/src/assets/vendors/css/vendor.bundle.addons.css">
+    <link rel="stylesheet" href="../back/src/assets/vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../back/src/assets/vendors/iconfonts/ionicons/dist/css/ionicons.css">
+    <link rel="stylesheet" href="../back/src/assets/vendors/iconfonts/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="../back/src/assets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="../back/src/assets/vendors/css/vendor.bundle.addons.css">
     <!-- endinject -->
     <!-- plugin css for this page -->
     <!-- End plugin css for this page -->
     <!-- inject:css -->
-    <link rel="stylesheet" href="back/src/assets/css/shared/style.css">
+    <link rel="stylesheet" href="../back/src/assets/css/shared/style.css">
     <!-- endinject -->
     <!-- Layout styles -->
-    <link rel="stylesheet" href="back/src/assets/css/demo_1/style.css">
+    <link rel="stylesheet" href="../back/src/assets/css/demo_1/style.css">
     <!-- End Layout styles -->
-    <link rel="shortcut icon" href="back/src/assets/images/favicon.ico" />
+    <link rel="shortcut icon" href="../back/src/assets/images/favicon.ico" />
   </head>
   <body>
     <div class="container-scroller">
@@ -28,9 +28,9 @@
       <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
           <a class="navbar-brand brand-logo" href="index.html">
-            <img src="back/src/assets/images/logo.svg" alt="logo" /> </a>
+            <img src="../back/src/assets/images/logo.svg" alt="logo" /> </a>
           <a class="navbar-brand brand-logo-mini" href="index.html">
-            <img src="back/src/assets/images/logo-mini.svg" alt="logo" /> </a>
+            <img src="../back/src/assets/images/logo-mini.svg" alt="logo" /> </a>
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-center">
           <ul class="navbar-nav">
@@ -155,10 +155,10 @@
             </li>
             <li class="nav-item dropdown d-none d-xl-inline-block user-dropdown">
               <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
-                <img class="img-xs rounded-circle" src="back/assets/images/faces/face8.jpg" alt="Profile image"> </a>
+                <img class="img-xs rounded-circle" src="../back/assets/images/faces/face8.jpg" alt="Profile image"> </a>
               <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
                 <div class="dropdown-header text-center">
-                  <img class="img-md rounded-circle" src="back/assets/images/faces/face8.jpg" alt="Profile image">
+                  <img class="img-md rounded-circle" src="../back/assets/images/faces/face8.jpg" alt="Profile image">
                   <p class="mb-1 mt-3 font-weight-semibold">Allen Moreno</p>
                   <p class="font-weight-light text-muted mb-0">allenmoreno@gmail.com</p>
                 </div>
@@ -183,7 +183,7 @@
             <li class="nav-item nav-profile">
               <a href="#" class="nav-link">
                 <div class="profile-image">
-                  <img class="img-xs rounded-circle" src="back/assets/images/faces/face8.jpg" alt="profile image">
+                  <img class="img-xs rounded-circle" src="../back/assets/images/faces/face8.jpg" alt="profile image">
                   <div class="dot-indicator bg-success"></div>
                 </div>
                 <div class="text-wrapper">
@@ -208,37 +208,37 @@
               <div class="collapse" id="ui-basic">
                 <ul class="nav flex-column sub-menu">
                   <li class="nav-item">
-                    <a class="nav-link" href="back/src/pages/ui-features/buttons.html">Buttons</a>
+                    <a class="nav-link" href="../back/src/pages/ui-features/buttons.html">Buttons</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="back/src/pages/ui-features/dropdowns.html">Dropdowns</a>
+                    <a class="nav-link" href="../back/src/pages/ui-features/dropdowns.html">Dropdowns</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="back/src/pages/ui-features/typography.html">Typography</a>
+                    <a class="nav-link" href="../back/src/pages/ui-features/typography.html">Typography</a>
                   </li>
                 </ul>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="back/src/pages/forms/basic_elements.html">
+              <a class="nav-link" href="../back/src/pages/forms/basic_elements.html">
                 <i class="menu-icon typcn typcn-shopping-bag"></i>
                 <span class="menu-title">Form elements</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="back/src/pages/charts/chartjs.html">
+              <a class="nav-link" href="../back/src/pages/charts/chartjs.html">
                 <i class="menu-icon typcn typcn-th-large-outline"></i>
                 <span class="menu-title">Charts</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="back/src/pages/tables/basic-table.html">
+              <a class="nav-link" href="../back/src/pages/tables/basic-table.html">
                 <i class="menu-icon typcn typcn-bell"></i>
                 <span class="menu-title">Tables</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="back/src/pages/icons/font-awesome.html">
+              <a class="nav-link" href="../back/src/pages/icons/font-awesome.html">
                 <i class="menu-icon typcn typcn-user-outline"></i>
                 <span class="menu-title">Icons</span>
               </a>
@@ -252,19 +252,19 @@
               <div class="collapse" id="auth">
                 <ul class="nav flex-column sub-menu">
                   <li class="nav-item">
-                    <a class="nav-link" href="back/src/pages/samples/blank-page.html"> Blank Page </a>
+                    <a class="nav-link" href="../back/src/pages/samples/blank-page.html"> Blank Page </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="back/src/pages/samples/login.html"> Login </a>
+                    <a class="nav-link" href="../back/src/pages/samples/login.html"> Login </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="back/src/pages/samples/register.html"> Register </a>
+                    <a class="nav-link" href="../back/src/pages/samples/register.html"> Register </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="back/src/pages/samples/error-404.html"> 404 </a>
+                    <a class="nav-link" href="../back/src/pages/samples/error-404.html"> 404 </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="back/src/pages/samples/error-500.html"> 500 </a>
+                    <a class="nav-link" href="../back/src/pages/samples/error-500.html"> 500 </a>
                   </li>
                 </ul>
               </div>
@@ -279,18 +279,18 @@
 
 
 
-        <script src="back/src/assets/vendors/js/vendor.bundle.base.js"></script>
-    <script src="back/src/assets/vendors/js/vendor.bundle.addons.js"></script>
+        <script src="../back/src/assets/vendors/js/vendor.bundle.base.js"></script>
+    <script src="../back/src/assets/vendors/js/vendor.bundle.addons.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page-->
     <!-- End plugin js for this page-->
     <!-- inject:js -->
-    <script src="back/src/assets/js/shared/off-canvas.js"></script>
-    <script src="back/src/assets/js/shared/misc.js"></script>
+    <script src="../back/src/assets/js/shared/off-canvas.js"></script>
+    <script src="../back/src/assets/js/shared/misc.js"></script>
     <!-- endinject -->
     <!-- Custom js for this page-->
-    <script src="back/src/assets/js/demo_1/dashboard.js"></script>
+    <script src="../back/src/assets/js/demo_1/dashboard.js"></script>
     <!-- End custom js for this page-->
-    <script src="back/src/assets/js/shared/jquery.cookie.js" type="text/javascript"></script>
+    <script src="../back/src/assets/js/shared/jquery.cookie.js" type="text/javascript"></script>
   </body>
 </html>
