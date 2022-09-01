@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TheEvent - Bootstrap Event Template</title>
+  <title>The Event - Bootstrap Event Template</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -52,7 +52,7 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">categorie</a></li>
+          <li><a href="../categorie/afficherCategorieFront.php">categorie</a></li>
           <li><a href="#speakers">about</a></li>
            <li><a href="#contact">Contact</a></li>
           <li class="buy-tickets"><a href="#buy-tickets">Buy Tickets</a></li>

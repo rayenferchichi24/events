@@ -1,43 +1,70 @@
 <?php
-
-class User {
+class User{
+  
     private $id;
-    private $username;
-    private $password;
+    private $nom;
+    private $prenom;
     private $role;
-
-
-    function __construct($username,$password,$role){
-
-        $this->username=$username;
-        $this->password=$password;
+    private $email;
+    private $tel;
+    private $password;
+       
+    function __construct( $nom, $prenom, $role, $email, $tel, $password){
+        $this->nom=$nom;
+        $this->prenom=$prenom;
         $this->role=$role;
-
+        $this->email=$email;
+        $this->tel=$tel;
+        $this->password=$password;
+      
     }
-
-
+ //getters
     function getId(){
         return $this->id;
     }
-
-    function setUsername($username){
-        $this->username=$username;
+    function getNom(){
+        return $this->nom;
     }
-    function getUsername(){
-        return $this->username;
+    function getPrenom(){
+        return $this->prenom;
     }
-    function setPassword($password){
-        $this->password=$password;
+    function getRole(){
+        return $this->role;
+    }
+    function getEmail(){
+        return $this->email;
+    }
+    function getTel(){
+        return $this->tel;
     }
     function getPassword(){
         return $this->password;
     }
-    function setRole($role){
+
+//setters
+    function setNom(string $nom){
+        $this->nom=$nom;
+    }
+    function setPrenom(string $prenom){
+        $this->prenom=$prenom;
+    }
+    function setRole(string $role){
         $this->role=$role;
     }
-    function getRole(){
-        return $this->role;
-}
-}
-    ?>
+    function setEmail(string $email){
+        $this->email=$email;
+    }
+    function setTel( int $tel){
+        $this->tel=$tel;
+    }
+    function setPassword(string $password){
+        $this->password=$password;
+    }
 
+
+
+}
+
+
+
+?>
